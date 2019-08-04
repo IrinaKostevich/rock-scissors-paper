@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 4rem;
+    padding: 1rem;
+    border-bottom: 1px solid darkgray;
+    box-shadow: 0 0 2px darkgray;
+}
+
+.header .header-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media only screen and (max-width: 770px) {
+    .header {
+        min-height: 2rem;
+    }
+    .header .header-title {
+        font-size: 2rem;
+    }
+}

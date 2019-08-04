@@ -1,0 +1,63 @@
+.player-card {
+    min-width: 20rem;
+    padding: 2rem;
+}
+
+.player-card .player-name {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.player-card .player-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    margin-bottom: 1rem;
+    font-size: 8rem;
+}
+
+.player-card .player-choice.player-choice--winner {
+    color: green;
+}
+
+.player-card .player-choice.player-choice--looser {
+    color: red;
+}
+
+.player-card .player-choice.player-choice--tie {
+    color: orange;
+}
+
+.player-card .player-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.player-card .player-controls .player-control-button {
+    border: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 3rem;
+    transition: color 0.2s ease-out;
+}
+
+.player-card .player-controls .player-control-button:hover {
+    cursor: pointer;
+    color: cornflowerblue;
+    transition: color 0.2s ease-out;
+}
+
+@media only screen and (max-width: 770px) {
+    .player-card {
+        min-width: auto;
+        padding: 1rem;
+    }
+
+    .player-card .player-choice {
+        height: 10rem;
+        margin-bottom: 1rem;
+    }
+}

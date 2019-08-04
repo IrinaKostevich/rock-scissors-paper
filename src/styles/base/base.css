@@ -1,0 +1,14 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+.text {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 770px) {
+    .text {
+        font-size: 1.5rem;
+    }
+}

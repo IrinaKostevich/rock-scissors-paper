@@ -1,0 +1,21 @@
+.l-game-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50rem;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l-game-text {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 770px) {
+    .l-game-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+}

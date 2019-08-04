@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Scissors-Paper</title>
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./src/styles/vendor/reset.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <script src="./dist/index.js" type="module"></script>
+</head>
+
+<body>
+    <header class="header">
+        <p class="header-title">Rock-Scissors-Paper Game</p>
+    </header>
+    <main>
+        <div class="l-game-container">
+            <div class="player-card">
+                <h3 class="player-name">You</h3>
+                <div class="player-choice js-player-left-choice"></i></div>
+                <div class="player-controls js-player-controls">
+                    <button class="player-control-button far fa-hand-rock" data-value="ROCK"></button>
+                    <button class="player-control-button far fa-hand-scissors" data-value="SCISSORS"></button>
+                    <button class="player-control-button far fa-hand-paper" data-value="PAPER"></button>
+                </div>
+            </div>
+            <div class="l-game-text">
+                <p class="text">VS</p>
+            </div>
+            <div class="player-card">
+                <h3 class="player-name">Computer</h3>
+                <div class="player-choice js-player-right-choice"></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
